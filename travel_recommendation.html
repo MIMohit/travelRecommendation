@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TravelBloom</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg">
+
+  <div class="navbar">
+    <div class="left">
+      <div class="brand">
+        <span class="plane">✈</span>
+        <span>TravelBloom</span>
+      </div>
+
+      <div class="navlinks">
+        <a href="travel_recommendation.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+
+    <div class="searchbar">
+      <input id="searchInput" type="text" placeholder="Enter a destination or keyword" />
+      <button id="searchBtn" class="btn search">Search</button>
+      <button id="clearBtn" class="btn clear">Clear</button>
+    </div>
+  </div>
+
+  <div class="socialRail">
+    <a href="#" aria-label="Twitter" title="Twitter">
+        <span class="ico">t</span>
+    </a>
+    <a href="#" aria-label="Facebook" title="Facebook">
+        <span class="ico">f</span>
+    </a>
+    <a href="#" aria-label="Instagram" title="Instagram">
+        <span class="ico">ig</span>
+    </a>
+    <a href="#" aria-label="YouTube" title="YouTube">
+        <span class="ico">▶</span>
+    </a>
+  </div>
+
+  <div class="main">
+    <!-- LEFT side (text) -->
+    <div class="heroText">
+      <h1>EXPLORE<br/>DREAM<br/>DESTINATION</h1>
+      <p>
+        It encourages exploration of unfamiliar territories, embracing diverse cultures and
+        landscapes, while pursuing the desired destination that captivates the heart and
+        ignites a sense of wonder.
+      </p>
+      <button class="btn book">BOOK NOW</button>
+    </div>
+
+    <!-- RIGHT side (recommendations appear here) -->
+    <div>
+        <div id="statusText" style="margin-bottom:10px; font-size:13px; opacity:0.85;"></div>
+        <div id="results" class="rightPanel"></div>
+    </div>
+  </div>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+
+</html>

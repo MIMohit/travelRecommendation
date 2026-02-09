@@ -22,4 +22,4 @@ TravelBloom is a simple travel recommendation website that suggests destinations
 Open `travel_recommendation.html` in a browser or using Live Server.
 
 ## Live Demo
-https://mimohit.github.io/travelRecommendation/travelRecommendation/travel_recommendation.html(not deployed yet)
+https://mimohit.github.io/travelRecommendation/travel_recommendation.html
